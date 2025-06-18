@@ -3,8 +3,6 @@
 import 'dart:convert';
 import 'dart:io';
 import 'package:crypto/crypto.dart';
-import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 
 extension StringMd5Ext on String{
   List<int> toMD5Bytes(){
